@@ -1,33 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Mount zion college</h1>
-    <table>
-        <tr>
-            <td>student name    </td>
-            <td><input type="text"></td>
+{% extends 'base.html' %}
+{% block myContent %}
 
-        </tr>
-        <tr>
-            <td>rollno</td>
-            <td><input type="text"></td>
 
-            
-        </tr>
-        <tr>
-            <td>admission no</td>
-            <td><input type="text"></td>
-            <tr>
-                <td><button class="btn btn-success">submit</button></td>
-            </tr>
-        </tr>
-    </table>
-</body>
-</html>
+<h1>Mount zion college</h1>
+<table>
+<tr>
+    <td>student name    </td>
+    <td><input type="text"></td>
+
+</tr>
+<tr>
+    <td>rollno</td>
+    <td><input type="text"></td>
+
+    
+</tr>
+<tr>
+    <td>admission no</td>
+    <td><input type="text"></td>
+    <tr>
+        <td></td>
+        <td><button class="btn btn-success">submit</button></td>
+    </tr>
+</tr>
+</table>
+
+
+
+{% endblock%}
